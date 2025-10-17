@@ -22,7 +22,7 @@ This project outlines the theoretical foundation, computational implementation, 
 ---
 
 ## Methodology  
-A detailed mathematical and statistical explanation of this approach, including model formulation, marginal fitting, dependence estimation, parameter inference, and validation, is available in the accompanying document: **[Methodology: Copula-Based Modeling of Multivariate Dependence](./Copula-Based%20Modeling%20of%20Multivariate%20Dependence.pdf)**.  
+A detailed mathematical and statistical explanation of this approach, including model formulation, marginal fitting, dependence estimation, parameter inference, and validation, is available in the accompanying document: **[Methodology: Copula-Based Modeling of Multivariate Dependence](https://github.com/ShahnewazMorshed/Gaussian-Copula/blob/main/Copula-Based%20Modeling%20of%20Multivariate%20Dependence.pdf)**.  
 
 In brief, the project applies the following framework:
 1. **Marginal Distribution Modeling:** Transform raw variables into uniform pseudo-observations using probability integral transforms.  
