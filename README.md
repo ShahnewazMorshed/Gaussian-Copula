@@ -22,19 +22,13 @@ This project outlines the theoretical foundation, computational implementation, 
 ---
 
 ## Methodology  
-A detailed mathematical and statistical explanation of this approach, including model formulation, marginal fitting, dependence estimation, parameter inference, and validation, is available in the accompanying document: **[Methodology: Copula-Based Modeling of Multivariate Dependence](https://github.com/ShahnewazMorshed/Gaussian-Copula/blob/main/Copula-Based%20Modeling%20of%20Multivariate%20Dependence.pdf)**.  
-
-In brief, the project applies the following framework:
-1. **Marginal Distribution Modeling:** Transform raw variables into uniform pseudo-observations using probability integral transforms.  
-2. **Copula Construction:** Model dependence using Gaussian, t-, or Archimedean copulas (e.g., Clayton, Gumbel) to capture symmetric and asymmetric tail behaviors.  
-3. **Parameter Estimation:** Use maximum likelihood or Bayesian inference via the Inference Function for Margins (IFM).  
-4. **Validation:** Evaluate model fit using AIC/BIC, Cramér–von Mises tests, and graphical diagnostics (e.g., contour plots).  
-5. **Interpretation:** Analyze tail dependence coefficients, conditional dependence, and Shapley-based decompositions for interpretability.  
-6. **Implementation:** Employ `copulas` and `statsmodels` in Python or `copula` and `VineCopula` in R for estimation and simulation.  
+A detailed mathematical and statistical explanation of this approach, including model formulation, marginal fitting, dependence estimation, parameter inference, and validation, is available in the accompanying document: **[Methodology: Copula-Based Modeling of Multivariate Dependence](https://github.com/ShahnewazMorshed/Gaussian-Copula/blob/main/Copula-Based%20Modeling%20of%20Multivariate%20Dependence.pdf)**.    
 
 ---
 
 ### Python Notebooks  
-- **Copula_Modeling.ipynb** — Demonstrates data preprocessing, copula parameter estimation, model fitting, and validation.  
+This Python notebook demonstrates how to construct custom joint probability distributions using Gaussian copulas. It walks through the process of simulating correlated multivariate Gaussian samples, transforming them into uniform variables via the Gaussian CDF, and then mapping these uniforms into arbitrary target distributions using their inverse CDFs. Visualizations are provided to illustrate how dependence is preserved across transformations and how uniform variables are reshaped into normal, Beta, or other desired forms, enabling flexible multivariate modeling with controlled correlation structures.
+
+- **[Copula_Modeling.ipynb](https://github.com/ShahnewazMorshed/Gaussian-Copula/blob/main/Copula_Modeling.ipynb)** — Demonstrates data preprocessing, copula parameter estimation, model fitting, and validation.  
 
 ---
