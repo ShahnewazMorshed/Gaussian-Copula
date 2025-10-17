@@ -34,19 +34,7 @@ In brief, the project applies the following framework:
 
 ---
 
-## Project Structure  
-
-### Data  
-No raw dataset is included in this repository; users may adapt the framework to their multivariate dataset of interest (e.g., asset returns, biomedical measurements, environmental indicators).  
-
 ### Python Notebooks  
 - **Copula_Modeling.ipynb** — Demonstrates data preprocessing, copula parameter estimation, model fitting, and validation.  
-- **copulas.ipynb** — Implementation notebook accompanying the methodology.  
-
-### Documentation  
-- **Copula-Based Modeling of Multivariate Dependence.pdf** — Contains the full theoretical and methodological exposition, including equations and derivations.  
 
 ---
-
-## Keywords  
-`Copula`, `Dependence Modeling`, `Tail Dependence`, `Multivariate Analysis`, `Financial Risk`, `Bayesian Estimation`, `Archimedean Copula`, `Vine Copula`, `Inference Function for Margins`, `Systemic Risk`, `Nonlinear Dependence`  
